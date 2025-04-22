@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Background color ( yellow faint ): #FFF3D5 */
+/* Box container color ( faint orange ): #FFDAAA  */
+/* text : #000000 */
+/* button color : #F1F1F1 */
+/*  white : #F1F1F1 */
+/*  border color:  #EDC9FF */
+
+::selection{
+    background-color: #d194ef;
+    color:rgb(255, 64, 47);
+}
