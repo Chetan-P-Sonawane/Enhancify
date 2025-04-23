@@ -24,7 +24,7 @@ const BottomContainer = () => {
 
   return (
     <div className='w-full '>
-        <div className='w-full pt-10 pb-8  md:py-12 rounded-2xl md:rounded-4xl flex flex-col items-center justify-center bg-[#FFDAAA]'>
+      <div className='px-3 sm:px-6 md:px-6 lg:px-16 xl:px-24 w-full pt-10 pb-8  md:py-12 rounded-2xl md:rounded-4xl flex flex-col items-center justify-center bg-[#FFDAAA]'>
                  
                  <ImageUpload
                     UploadImageHandler={UploadImageHandler}
