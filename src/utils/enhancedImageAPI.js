@@ -7,8 +7,8 @@ const MAX_RETRIES = 20;
 
 export const enhancedImageAPI = async (file) => {
   try {
-    const taskId = await uploadImage(file);
-    console.log("Image Uploaded Successfully, Task id:", taskId);
+    // const taskId = await uploadImage(file);
+    // console.log("Image Uploaded Successfully, Task id:", taskId);
 
     const enhancedImageData = await pollForEnhancedImage(taskId);
     console.log("Image Enhanced Successfully, Data:", enhancedImageData);
